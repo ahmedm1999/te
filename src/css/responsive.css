@@ -1,0 +1,47 @@
+@import url(index.css);
+@media (max-width: 1023px) {
+    .d-none-1023 {
+        display: none;
+    }
+}
+@media (max-width: 985px){
+    
+    .nav_bar_lg .nav_bar_content .header_logo_lg .hum-menu-open {
+        display: flex !important;
+    }
+    .prime-link-signup, .prime-link-login {
+        padding: 6px 10px !important;
+        margin-top: 7px;
+        font-size: var(--header-text-size);
+    }
+    .nav_bar_lg .nav_bar_content .header_logo_lg .logo_png .logo {
+        width: 27px !important;
+        height: 27px !important;
+    }
+}
+@media (max-width: 767px) {
+    .landing_page .left_side {
+        display: none;
+    }
+}
+@media (max-width: 540px) {
+    .prime-link-login {
+        display: none;
+    }
+    .nav_bar_lg .nav_bar_content .header_content .dark-light_toggler {
+        margin-right: 0 !important;
+    }
+    .prime-link-signup {
+        font-size: var(--sub-sub-text-size) !important;
+        margin: 0px;
+    }
+    .fa-moon, .fa-sun {
+        padding: 6px 0 0 0 !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .prime-link-signup {
+        display: none !important;
+    }
+}
